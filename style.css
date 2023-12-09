@@ -1,0 +1,145 @@
+body{
+  /* background-color:#f5be6c;  */
+  background-color: #363062;
+.navbar {
+    overflow: hidden;
+    background-color:#f5be6c ;
+    /* background-color: #363062; */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  /* .class1{
+    position: fixed;
+    width: 100%;
+  } */
+  .navbar a {
+    float: left;
+    display: block;
+    /* color: rgb(240, 241, 245); */
+    color: #363062;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #818FB4;
+  }
+  .navbar li{
+    display: inline-block;
+    font-size: 20px;
+  }
+  .heading h1{
+    font-size: 40px;
+    /* color:rgb(7, 40, 173); */
+    color: #F5F0BB;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  .heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; 
+    margin: 10px auto;
+}
+.intro1{
+  font-size: 18px;
+  line-height: 1.5;
+  color: #F5E8C7;
+}
+}
+.intro{
+  color: #F5E8C7;
+  font-size: 30px;
+  text-shadow:2px 2px 4px #757373;
+}
+.container {
+  width: 80%;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+  align-items: center;
+  /* margin-top: 100px; */
+}
+
+img {
+  float: left;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.text {
+  overflow: hidden;
+  padding-top: 30px;
+  text-align: justify;
+  font-size: 20px;
+  color: #F5E8C7
+}
+.myskills{
+  width: 90%;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  display:flex;
+} 
+.myskills {
+  display: flex;
+  background-color: #f5be6c;
+  /*background-color: #363062; */
+  color:#363062;   
+}
+
+.box {
+  flex: 1; 
+  padding: 20px;
+  border: 2px solid #363062;
+  margin: 5px;
+  /* text-align: justify; */
+}
+.projects,.education{
+  /* background-color: #f5be6c;  */
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  border-radius: 2px;
+  color: #F5E8C7;
+}
+.education{
+  color:#363062
+}
+.horizontal-line {
+  border: none; 
+  border-top: 1px solid #f5be6c; 
+  margin: 20px 0;
+}
+.education{
+  background-color: #f5be6c;
+}
+.contact-us {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-us h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #F5E8C7;
+}
+
+.social-icons {
+  font-size: 40px;
+}
+
+.icon-link {
+  margin-right: 10px; /* Adjust spacing between icons */
+  color: #F5E8C7; 
+}
+.profiles{
+  display: flex;
+  flex-direction: row;
+}
